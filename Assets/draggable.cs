@@ -33,27 +33,6 @@ public class draggable : MonoBehaviour
                 transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
             }
         }
-        if (Input.GetKey(KeyCode.Z))
-        {
-            transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
-        }
-        else
-        {
-            if (Input.GetKey(KeyCode.X))
-            {
-                transform.Rotate(Vector3.down * rotationSpeed * Time.deltaTime);
-            }
-        }
-        if (Input.GetKey(KeyCode.T))
-        {
-            transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
-        }
-        else
-        {
-            if (Input.GetKey(KeyCode.G))
-            {
-                transform.Rotate(Vector3.forward*-1 * rotationSpeed * Time.deltaTime);
-            }
-        }
+        
     }
 }
